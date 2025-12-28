@@ -54,5 +54,10 @@ namespace projetomapa
                 this.Hide();
             }
         }
+
+        private void portugal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
