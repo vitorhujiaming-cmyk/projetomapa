@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Form1 : Form
+    public partial class porto : Form
     {
-        public Form1()
+        public porto()
         {
             InitializeComponent();
         }
