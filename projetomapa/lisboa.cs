@@ -68,5 +68,26 @@ namespace projetomapa
             portugal.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button4.Visible = false;
+            pictureBox6.Visible = true;
+            pictureBox5.Visible = true;
+            label7.Visible=true;
+            label6.Visible=true;
+            button2.Visible=true;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            button2.Visible = false;
+            button4.Visible = true;
+            pictureBox6.Visible = false;
+            pictureBox5.Visible = false;
+            label7.Visible = false;
+            label6.Visible = false;
+
+        }
     }
 }

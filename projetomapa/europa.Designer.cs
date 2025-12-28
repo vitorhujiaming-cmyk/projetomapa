@@ -42,9 +42,9 @@
             this.portugal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.portugal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.portugal.Image = ((System.Drawing.Image)(resources.GetObject("portugal.Image")));
-            this.portugal.Location = new System.Drawing.Point(268, 116);
+            this.portugal.Location = new System.Drawing.Point(77, 639);
             this.portugal.Name = "portugal";
-            this.portugal.Size = new System.Drawing.Size(60, 60);
+            this.portugal.Size = new System.Drawing.Size(109, 147);
             this.portugal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.portugal.TabIndex = 0;
             this.portugal.TabStop = false;
