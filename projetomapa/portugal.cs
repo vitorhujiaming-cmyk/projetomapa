@@ -17,7 +17,27 @@ namespace projetomapa
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+         
+        }
+
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            europa europa = new europa();
+            europa.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             string cidade = comboBox1.Text;
 
@@ -33,18 +53,6 @@ namespace projetomapa
                 porto.Show();
                 this.Hide();
             }
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-           europa europa = new europa();
-            europa.Show();
-            this.Hide();
         }
     }
 }

@@ -19,7 +19,7 @@ namespace projetomapa
 
         private void europa_Load(object sender, EventArgs e)
         {
-       
+
         }
 
         private void portugal_Click(object sender, EventArgs e)
