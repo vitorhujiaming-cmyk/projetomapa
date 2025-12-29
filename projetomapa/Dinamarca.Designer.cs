@@ -47,7 +47,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(522, 120);
+            this.label1.Location = new System.Drawing.Point(669, 80);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(507, 108);
             this.label1.TabIndex = 11;
@@ -73,7 +73,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(20, 680);
+            this.pictureBox3.Location = new System.Drawing.Point(13, 803);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(406, 188);
@@ -90,7 +90,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Copenhaga",
             "Aarhus"});
-            this.comboBox1.Location = new System.Drawing.Point(75, 641);
+            this.comboBox1.Location = new System.Drawing.Point(50, 777);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(308, 28);
             this.comboBox1.TabIndex = 14;
@@ -103,7 +103,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1923, 1050);
+            this.pictureBox1.Size = new System.Drawing.Size(1924, 1050);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
@@ -127,7 +127,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1282, 700);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox3);
