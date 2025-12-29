@@ -31,8 +31,8 @@ namespace projetomapa
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Espanha Espanha = new Espanha();
-            Espanha.Show();
+            Dinamarca Dinamarca = new Dinamarca();
+            Dinamarca.Show();
             this.Hide();
         }
     }

@@ -46,17 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aarhus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aarhus.Designer.cs">
+      <DependentUpon>Aarhus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Barcelona.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Barcelona.Designer.cs">
       <DependentUpon>Barcelona.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bósnia_e_Herzegovina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bósnia_e_Herzegovina.Designer.cs">
+      <DependentUpon>Bósnia_e_Herzegovina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copenhaga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copenhaga.Designer.cs">
+      <DependentUpon>Copenhaga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dinamarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dinamarca.Designer.cs">
+      <DependentUpon>Dinamarca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Espanha.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Espanha.Designer.cs">
       <DependentUpon>Espanha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estónia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estónia.Designer.cs">
+      <DependentUpon>Estónia.cs</DependentUpon>
     </Compile>
     <Compile Include="europa.cs">
       <SubType>Form</SubType>
@@ -82,6 +112,12 @@
     <Compile Include="menu.Designer.cs">
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mostar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mostar.Designer.cs">
+      <DependentUpon>Mostar.cs</DependentUpon>
+    </Compile>
     <Compile Include="porto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,11 +132,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sarajevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sarajevo.Designer.cs">
+      <DependentUpon>Sarajevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tallinn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tallinn.Designer.cs">
+      <DependentUpon>Tallinn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tartu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tartu.Designer.cs">
+      <DependentUpon>Tartu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Aarhus.resx">
+      <DependentUpon>Aarhus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Barcelona.resx">
       <DependentUpon>Barcelona.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bósnia_e_Herzegovina.resx">
+      <DependentUpon>Bósnia_e_Herzegovina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copenhaga.resx">
+      <DependentUpon>Copenhaga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dinamarca.resx">
+      <DependentUpon>Dinamarca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Espanha.resx">
       <DependentUpon>Espanha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estónia.resx">
+      <DependentUpon>Estónia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="europa.resx">
       <DependentUpon>europa.cs</DependentUpon>
@@ -113,6 +182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mostar.resx">
+      <DependentUpon>Mostar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="porto.resx">
       <DependentUpon>porto.cs</DependentUpon>
@@ -129,6 +201,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Sarajevo.resx">
+      <DependentUpon>Sarajevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tallinn.resx">
+      <DependentUpon>Tallinn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tartu.resx">
+      <DependentUpon>Tartu.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
