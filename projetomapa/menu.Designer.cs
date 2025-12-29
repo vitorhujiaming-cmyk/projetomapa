@@ -35,9 +35,9 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(237, 209);
+            this.button1.Location = new System.Drawing.Point(27, 179);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(958, 347);
+            this.button1.Size = new System.Drawing.Size(958, 320);
             this.button1.TabIndex = 0;
             this.button1.Text = "Continuar";
             this.button1.UseVisualStyleBackColor = true;
@@ -45,10 +45,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(41, 34);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(41, 31);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(369, 129);
+            this.button2.Size = new System.Drawing.Size(369, 119);
             this.button2.TabIndex = 1;
             this.button2.Text = "João";
             this.button2.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1283, 682);
+            this.ClientSize = new System.Drawing.Size(1034, 561);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "menu";

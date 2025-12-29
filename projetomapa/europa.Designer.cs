@@ -42,9 +42,10 @@
             this.portugal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.portugal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.portugal.Image = ((System.Drawing.Image)(resources.GetObject("portugal.Image")));
-            this.portugal.Location = new System.Drawing.Point(279, 745);
+            this.portugal.Location = new System.Drawing.Point(270, 724);
+            this.portugal.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.portugal.Name = "portugal";
-            this.portugal.Size = new System.Drawing.Size(60, 60);
+            this.portugal.Size = new System.Drawing.Size(56, 74);
             this.portugal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.portugal.TabIndex = 0;
             this.portugal.TabStop = false;
@@ -55,21 +56,23 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1904, 1041);
+            this.pictureBox1.Size = new System.Drawing.Size(1954, 1009);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // europa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.ClientSize = new System.Drawing.Size(1954, 1009);
             this.Controls.Add(this.portugal);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "europa";
             this.Text = "europa";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
