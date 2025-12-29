@@ -327,7 +327,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.pictureBox7);
             this.Name = "Barcelona";
-            this.Text = "Barcelona";
+            this.Text = "-";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
