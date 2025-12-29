@@ -26,8 +26,8 @@ namespace projetomapa
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Roménia Roménia = new Roménia();
-            Roménia.Show();
+            Países_Baixos Países_Baixos = new Países_Baixos();
+            Países_Baixos.Show();
             this.Hide();
         }
 
