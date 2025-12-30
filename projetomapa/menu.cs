@@ -22,12 +22,10 @@ namespace projetomapa
 
         }
 
-
-
         private void button2_Click(object sender, EventArgs e)
         {
-            Dinamarca Dinamarca = new Dinamarca();
-            Dinamarca.Show();
+            Países_Baixos Países_Baixos = new Países_Baixos();
+            Países_Baixos.Show();
             this.Hide();
         }
 

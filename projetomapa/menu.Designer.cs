@@ -1,4 +1,6 @@
-﻿namespace projetomapa
+﻿using System;
+
+namespace projetomapa
 {
     partial class menu
     {
@@ -101,6 +103,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
