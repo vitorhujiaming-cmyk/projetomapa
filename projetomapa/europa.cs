@@ -28,5 +28,19 @@ namespace projetomapa
             portugal.Show();
             this.Hide();
         }
+
+        private void espanha_Click(object sender, EventArgs e)
+        {
+            Espanha Espanha = new Espanha ();
+            Espanha.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            menu menu = new menu();
+            menu.Show();
+            this.Hide ();
+        }
     }
 }

@@ -22,17 +22,19 @@ namespace projetomapa
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-           europa europa = new europa();
-            europa.Show();
-            this.Hide();
-        }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
             Dinamarca Dinamarca = new Dinamarca();
             Dinamarca.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            europa europa = new europa();
+            europa.Show();
             this.Hide();
         }
     }

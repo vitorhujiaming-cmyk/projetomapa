@@ -138,6 +138,12 @@
     <Compile Include="Sarajevo.Designer.cs">
       <DependentUpon>Sarajevo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Suécia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suécia.Designer.cs">
+      <DependentUpon>Suécia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tallinn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +209,9 @@
     </Compile>
     <EmbeddedResource Include="Sarajevo.resx">
       <DependentUpon>Sarajevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suécia.resx">
+      <DependentUpon>Suécia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tallinn.resx">
       <DependentUpon>Tallinn.cs</DependentUpon>
