@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class portugal : Form
+    public partial class Portugal : Form
     {
-        public portugal()
+        public Portugal()
         {
             InitializeComponent();
         }
@@ -43,13 +43,13 @@ namespace projetomapa
 
             if (cidade == "Lisboa")
             {
-                lisboa lisboa = new lisboa();
+                Lisboa lisboa = new Lisboa();
                 lisboa.Show();
                 this.Hide();
             }
             else if (cidade == "Porto")
             {
-                porto porto = new porto();
+                Porto porto = new Porto();
                 porto.Show();
                 this.Hide();
             }

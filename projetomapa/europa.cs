@@ -24,7 +24,7 @@ namespace projetomapa
 
         private void portugal_Click(object sender, EventArgs e)
         {
-            portugal portugal = new portugal();
+            Portugal portugal = new Portugal();
             portugal.Show();
             this.Hide();
         }
@@ -41,6 +41,62 @@ namespace projetomapa
             menu menu = new menu();
             menu.Show();
             this.Hide ();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Suécia Suécia = new Suécia();
+            Suécia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Grécia Grécia = new Grécia();
+            Grécia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Irlanda Irlanda = new Irlanda();
+            Irlanda.Show();
+            this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Hungria hungria = new Hungria();
+            hungria.Show();
+            this.Hide();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Bélgica Bélgica = new Bélgica();
+            Bélgica.Show();
+            this.Hide();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Croácia Croácia = new Croácia();
+            Croácia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            Noruega Noru = new Noruega();
+            Noru.Show();
+            this.Hide();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            Bulgária Bulgária = new Bulgária();
+            Bulgária.Show();
+            this.Hide();
         }
     }
 }

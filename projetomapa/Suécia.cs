@@ -21,5 +21,30 @@ namespace projetomapa
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            europa europa = new europa();
+            europa.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            string cidade = comboBox1.Text;
+
+            if (cidade == "Estocolmo")
+            {
+                Estocolmo Estocolmo = new Estocolmo();
+                Estocolmo.Show();
+                this.Hide();
+            }
+            else if (cidade == "Gotemburgo")
+            {
+                Gotemburgo Gotemburgo = new Gotemburgo();
+                Gotemburgo.Show();
+                this.Hide();
+            }
+        }
     }
 }
