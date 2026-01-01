@@ -64,6 +64,7 @@ namespace projetomapa
             // 
             // voos
             // 
+            this.voos.BackColor = System.Drawing.Color.Transparent;
             this.voos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.voos.Image = ((System.Drawing.Image)(resources.GetObject("voos.Image")));
             this.voos.Location = new System.Drawing.Point(150, 350);
@@ -76,6 +77,7 @@ namespace projetomapa
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(850, 350);
