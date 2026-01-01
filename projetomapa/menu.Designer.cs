@@ -64,6 +64,7 @@ namespace projetomapa
             // 
             // voos
             // 
+            this.voos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.voos.Image = ((System.Drawing.Image)(resources.GetObject("voos.Image")));
             this.voos.Location = new System.Drawing.Point(150, 350);
             this.voos.Name = "voos";
@@ -71,9 +72,11 @@ namespace projetomapa
             this.voos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.voos.TabIndex = 3;
             this.voos.TabStop = false;
+            this.voos.Click += new System.EventHandler(this.voos_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(850, 350);
             this.pictureBox2.Name = "pictureBox2";

@@ -324,6 +324,12 @@
     <Compile Include="Tartu.Designer.cs">
       <DependentUpon>Tartu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Voos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voos.Designer.cs">
+      <DependentUpon>Voos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zagreb.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -476,6 +482,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tartu.resx">
       <DependentUpon>Tartu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Voos.resx">
+      <DependentUpon>Voos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zagreb.resx">
       <DependentUpon>Zagreb.cs</DependentUpon>

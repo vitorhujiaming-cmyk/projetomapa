@@ -35,5 +35,12 @@ namespace projetomapa
             europa.Show();
             this.Hide();
         }
+
+        private void voos_Click(object sender, EventArgs e)
+        {
+            Voos voos = new Voos();
+            voos.Show();
+            this.Hide();
+        }
     }
 }
