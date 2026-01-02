@@ -24,8 +24,8 @@ namespace projetomapa
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Países_Baixos Países_Baixos = new Países_Baixos();
-            Países_Baixos.Show();
+            Áustria Áustria = new Áustria();
+            Áustria.Show();
             this.Hide();
         }
 
