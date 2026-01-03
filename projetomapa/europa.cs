@@ -140,5 +140,61 @@ namespace projetomapa
             Áustria.Show();
             this.Hide();
         }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            Islândia islândia = new Islândia();
+            islândia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            Eslovénia eslovénia = new Eslovénia();
+            eslovénia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            Itália itália = new Itália();
+            itália.Show();
+            this.Hide();
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            Países_Baixos países_Baixos = new Países_Baixos();
+            países_Baixos.Show();
+            this.Hide();
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            Albânia albânia = new Albânia();
+            albânia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox22_Click(object sender, EventArgs e)
+        {
+            Finlândia finlândia = new Finlândia();
+            finlândia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox23_Click(object sender, EventArgs e)
+        {
+            Macedónia_do_Norte macedónia_Do_Norte = new Macedónia_do_Norte();
+            macedónia_Do_Norte.Show();
+            this.Hide();
+        }
+
+        private void pictureBox24_Click(object sender, EventArgs e)
+        {
+            França frança = new França();
+            frança.Show();
+            this.Hide();
+        }
     }
 }
