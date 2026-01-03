@@ -24,8 +24,8 @@ namespace projetomapa
 
         private void button2_Click(object sender, EventArgs e)
         {
-           Finlândia Finlândia = new Finlândia();
-            Finlândia.Show();
+           Alemanha Alemanha = new Alemanha();
+            Alemanha.Show();
             this.Hide();
         }
 
