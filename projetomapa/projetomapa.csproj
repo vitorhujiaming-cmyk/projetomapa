@@ -166,6 +166,12 @@
     <Compile Include="Cork.Designer.cs">
       <DependentUpon>Cork.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cracóvia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cracóvia.Designer.cs">
+      <DependentUpon>Cracóvia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Croácia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -388,6 +394,12 @@
     <Compile Include="Plovdiv.Designer.cs">
       <DependentUpon>Plovdiv.cs</DependentUpon>
     </Compile>
+    <Compile Include="Polónia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Polónia.Designer.cs">
+      <DependentUpon>Polónia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Porto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -492,6 +504,12 @@
     <Compile Include="Tirana.Designer.cs">
       <DependentUpon>Tirana.cs</DependentUpon>
     </Compile>
+    <Compile Include="Varsóvia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Varsóvia.Designer.cs">
+      <DependentUpon>Varsóvia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Viena.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -575,6 +593,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cork.resx">
       <DependentUpon>Cork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cracóvia.resx">
+      <DependentUpon>Cracóvia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Croácia.resx">
       <DependentUpon>Croácia.cs</DependentUpon>
@@ -687,6 +708,9 @@
     <EmbeddedResource Include="Plovdiv.resx">
       <DependentUpon>Plovdiv.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Polónia.resx">
+      <DependentUpon>Polónia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Porto.resx">
       <DependentUpon>Porto.cs</DependentUpon>
     </EmbeddedResource>
@@ -746,6 +770,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tirana.resx">
       <DependentUpon>Tirana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Varsóvia.resx">
+      <DependentUpon>Varsóvia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Viena.resx">
       <DependentUpon>Viena.cs</DependentUpon>
