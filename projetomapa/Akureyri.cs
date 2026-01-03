@@ -24,8 +24,8 @@ namespace projetomapa
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Reiquiavique Reiquiavique = new Reiquiavique();
-            Reiquiavique.Show();
+            Islândia Islândia = new Islândia();
+            Islândia.Show();
             this.Hide();
         }
 
