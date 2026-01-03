@@ -16,5 +16,30 @@ namespace projetomapa
         {
             InitializeComponent();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            string cidade = comboBox1.Text;
+
+            if (cidade == "Reiquiavique")
+            {
+                Reiquiavique Reiquiavique = new Reiquiavique();
+                Reiquiavique.Show();
+                this.Hide();
+            }
+            else if (cidade == "Akureyri")
+            {
+                Akureyri Akureyri = new Akureyri();
+                Akureyri.Show();
+                this.Hide();
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            europa europa = new europa();
+            europa.Show();
+            this.Hide();
+        }
     }
 }
