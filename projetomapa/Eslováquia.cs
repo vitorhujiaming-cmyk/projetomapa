@@ -10,29 +10,11 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Alemanha : Form
+    public partial class Eslováquia : Form
     {
-        public Alemanha()
+        public Eslováquia()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            string cidade = comboBox1.Text;
-
-            if (cidade == "Berlim")
-            {
-                Berlim Berlim = new Berlim();
-                Berlim.Show();
-                this.Hide();
-            }
-            else if (cidade == "Munique")
-            {
-                Munique Munique = new Munique();
-                Munique.Show();
-                this.Hide();
-            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -40,6 +22,24 @@ namespace projetomapa
             europa europa = new europa();
             europa.Show();
             this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            string cidade = comboBox1.Text;
+
+            if (cidade == "Bratislava")
+            {
+                Bratislava Bratislava = new Bratislava();
+                Bratislava.Show();
+                this.Hide();
+            }
+            else if (cidade == "Košice")
+            {
+                Košice Košice = new Košice();
+                Košice.Show();
+                this.Hide();
+            }
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -52,15 +52,14 @@ namespace projetomapa
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
     }
 }
-    

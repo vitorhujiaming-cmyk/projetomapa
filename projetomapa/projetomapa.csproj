@@ -106,11 +106,29 @@
     <Compile Include="Berlim.Designer.cs">
       <DependentUpon>Berlim.cs</DependentUpon>
     </Compile>
+    <Compile Include="Berna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Berna.Designer.cs">
+      <DependentUpon>Berna.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bitola.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Bitola.Designer.cs">
       <DependentUpon>Bitola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bratislava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bratislava.Designer.cs">
+      <DependentUpon>Bratislava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Brno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brno.Designer.cs">
+      <DependentUpon>Brno.cs</DependentUpon>
     </Compile>
     <Compile Include="Bruxelas.cs">
       <SubType>Form</SubType>
@@ -147,6 +165,12 @@
     </Compile>
     <Compile Include="Bósnia_e_Herzegovina.Designer.cs">
       <DependentUpon>Bósnia_e_Herzegovina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chéquia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chéquia.Designer.cs">
+      <DependentUpon>Chéquia.cs</DependentUpon>
     </Compile>
     <Compile Include="Cluj-Napoca.cs">
       <SubType>Form</SubType>
@@ -207,6 +231,12 @@
     </Compile>
     <Compile Include="Durrës.Designer.cs">
       <DependentUpon>Durrës.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eslováquia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eslováquia.Designer.cs">
+      <DependentUpon>Eslováquia.cs</DependentUpon>
     </Compile>
     <Compile Include="Eslovénia.cs">
       <SubType>Form</SubType>
@@ -297,6 +327,12 @@
     </Compile>
     <Compile Include="Itália.Designer.cs">
       <DependentUpon>Itália.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Košice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Košice.Designer.cs">
+      <DependentUpon>Košice.cs</DependentUpon>
     </Compile>
     <Compile Include="Letónia.cs">
       <SubType>Form</SubType>
@@ -412,6 +448,12 @@
     <Compile Include="Portugal.Designer.cs">
       <DependentUpon>Portugal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Praga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Praga.Designer.cs">
+      <DependentUpon>Praga.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reiquiavique.cs">
@@ -474,6 +516,12 @@
     <Compile Include="Suécia.Designer.cs">
       <DependentUpon>Suécia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Suíça.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suíça.Designer.cs">
+      <DependentUpon>Suíça.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sófia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -528,6 +576,12 @@
     <Compile Include="Zagreb.Designer.cs">
       <DependentUpon>Zagreb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Zurique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zurique.Designer.cs">
+      <DependentUpon>Zurique.cs</DependentUpon>
+    </Compile>
     <Compile Include="Áustria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -564,8 +618,17 @@
     <EmbeddedResource Include="Berlim.resx">
       <DependentUpon>Berlim.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Berna.resx">
+      <DependentUpon>Berna.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bitola.resx">
       <DependentUpon>Bitola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bratislava.resx">
+      <DependentUpon>Bratislava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brno.resx">
+      <DependentUpon>Brno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bruxelas.resx">
       <DependentUpon>Bruxelas.cs</DependentUpon>
@@ -584,6 +647,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bósnia_e_Herzegovina.resx">
       <DependentUpon>Bósnia_e_Herzegovina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chéquia.resx">
+      <DependentUpon>Chéquia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cluj-Napoca.resx">
       <DependentUpon>Cluj-Napoca.cs</DependentUpon>
@@ -614,6 +680,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Durrës.resx">
       <DependentUpon>Durrës.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eslováquia.resx">
+      <DependentUpon>Eslováquia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Eslovénia.resx">
       <DependentUpon>Eslovénia.cs</DependentUpon>
@@ -659,6 +728,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Itália.resx">
       <DependentUpon>Itália.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Košice.resx">
+      <DependentUpon>Košice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Letónia.resx">
       <DependentUpon>Letónia.cs</DependentUpon>
@@ -717,6 +789,9 @@
     <EmbeddedResource Include="Portugal.resx">
       <DependentUpon>Portugal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Praga.resx">
+      <DependentUpon>Praga.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -756,6 +831,9 @@
     <EmbeddedResource Include="Suécia.resx">
       <DependentUpon>Suécia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Suíça.resx">
+      <DependentUpon>Suíça.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sófia.resx">
       <DependentUpon>Sófia.cs</DependentUpon>
     </EmbeddedResource>
@@ -782,6 +860,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Zagreb.resx">
       <DependentUpon>Zagreb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zurique.resx">
+      <DependentUpon>Zurique.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Áustria.resx">
       <DependentUpon>Áustria.cs</DependentUpon>
