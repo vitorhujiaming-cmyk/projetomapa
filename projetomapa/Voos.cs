@@ -271,7 +271,7 @@ namespace projetomapa
             }
 
             // Converte a lista de lugares em uma string separada por espaços
-            string lugaresStr = string.Join(" ", lugares);
+            string lugaresStr = string.Join(" | ", lugares);
 
             // Exibe os lugares no Label1
             label1.Text = lugaresStr;
@@ -291,7 +291,7 @@ namespace projetomapa
             // Exibição do preço total
             // -------------------------------
 
-            label3.Text = Math.Round(precoTotal, 1) + " euros";
+            label3.Text = Math.Round(precoTotal, 1) + " €";
 
             // Desativa o botão/ícone após gerar os dados
             pictureBox4.Enabled = false;

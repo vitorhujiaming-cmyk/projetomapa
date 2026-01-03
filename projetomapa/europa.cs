@@ -98,5 +98,47 @@ namespace projetomapa
             Bulgária.Show();
             this.Hide();
         }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            Estónia Estónia = new Estónia();
+            Estónia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            Bósnia_e_Herzegovina bósnia_E_Herzegovina = new Bósnia_e_Herzegovina();
+            bósnia_E_Herzegovina.Show();
+            this.Hide();
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            Dinamarca Dinamarca = new Dinamarca();
+            Dinamarca.Show();
+            this.Hide();
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            Roménia Roménia = new Roménia();
+            Roménia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            Letónia Letónia = new Letónia();
+            Letónia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            Áustria Áustria = new Áustria();
+            Áustria.Show();
+            this.Hide();
+        }
     }
 }

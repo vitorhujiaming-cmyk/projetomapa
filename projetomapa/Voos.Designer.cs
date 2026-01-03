@@ -64,7 +64,7 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(253, 174);
+            this.pictureBox1.Location = new System.Drawing.Point(253, 168);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(921, 496);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,7 +122,7 @@
             "Suíça",
             "Ucrânia",
             "Vaticano"});
-            this.comboBox1.Location = new System.Drawing.Point(380, 353);
+            this.comboBox1.Location = new System.Drawing.Point(380, 350);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(250, 32);
             this.comboBox1.TabIndex = 2;
@@ -232,7 +232,7 @@
             "Suíça",
             "Ucrânia",
             "Vaticano"});
-            this.comboBox2.Location = new System.Drawing.Point(805, 353);
+            this.comboBox2.Location = new System.Drawing.Point(804, 350);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(250, 32);
             this.comboBox2.TabIndex = 9;
@@ -268,9 +268,9 @@
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(395, 686);
+            this.pictureBox4.Location = new System.Drawing.Point(395, 667);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(273, 167);
+            this.pictureBox4.Size = new System.Drawing.Size(235, 134);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;

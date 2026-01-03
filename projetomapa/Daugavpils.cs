@@ -148,5 +148,10 @@ namespace projetomapa
         {
 
         }
+
+        private void Daugavpils_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
