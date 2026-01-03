@@ -1,6 +1,6 @@
 ﻿namespace projetomapa
 {
-    partial class Milão
+    partial class Tirana
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Milão));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tirana));
+            this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -48,7 +49,6 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -58,6 +58,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(224, 355);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(364, 48);
+            this.label2.TabIndex = 219;
+            this.label2.Text = "Praça Skanderbeg";
+            this.label2.Visible = false;
+            // 
             // label7
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -65,23 +77,21 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(697, 57);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(415, 163);
-            this.label7.TabIndex = 198;
-            this.label7.Text = "Milão";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label7.Size = new System.Drawing.Size(478, 163);
+            this.label7.TabIndex = 218;
+            this.label7.Text = "Tirana";
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(1514, 696);
+            this.label6.Location = new System.Drawing.Point(1421, 696);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(338, 48);
-            this.label6.TabIndex = 196;
-            this.label6.Text = "Centro financeiro";
+            this.label6.Size = new System.Drawing.Size(515, 48);
+            this.label6.TabIndex = 216;
+            this.label6.Text = "História comunista recente";
             this.label6.Visible = false;
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -90,11 +100,10 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(1514, 355);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(323, 48);
-            this.label5.TabIndex = 195;
-            this.label5.Text = "Capital da moda";
+            this.label5.Size = new System.Drawing.Size(309, 48);
+            this.label5.TabIndex = 215;
+            this.label5.Text = "Capital colorida";
             this.label5.Visible = false;
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox6
             // 
@@ -104,10 +113,9 @@
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(452, 250);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 194;
+            this.pictureBox6.TabIndex = 214;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Visible = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
@@ -117,23 +125,21 @@
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(452, 250);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 193;
+            this.pictureBox5.TabIndex = 213;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Visible = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(838, 696);
+            this.label4.Location = new System.Drawing.Point(973, 696);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(208, 48);
-            this.label4.TabIndex = 192;
-            this.label4.Text = "Ossobuco";
+            this.label4.Size = new System.Drawing.Size(127, 48);
+            this.label4.TabIndex = 212;
+            this.label4.Text = "Byrek";
             this.label4.Visible = false;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -142,11 +148,10 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(838, 355);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(407, 48);
-            this.label3.TabIndex = 191;
-            this.label3.Text = "Risotto alla Milanese";
+            this.label3.Size = new System.Drawing.Size(206, 48);
+            this.label3.TabIndex = 211;
+            this.label3.Text = "Tavë Kosi\n";
             this.label3.Visible = false;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox4
             // 
@@ -156,10 +161,9 @@
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(452, 248);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 190;
+            this.pictureBox4.TabIndex = 210;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Visible = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
@@ -169,10 +173,9 @@
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(452, 250);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 189;
+            this.pictureBox3.TabIndex = 209;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Visible = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // button4
             // 
@@ -184,7 +187,7 @@
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(452, 89);
-            this.button4.TabIndex = 188;
+            this.button4.TabIndex = 208;
             this.button4.Text = "Curiosidades";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Visible = false;
@@ -200,7 +203,7 @@
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(452, 89);
-            this.button3.TabIndex = 187;
+            this.button3.TabIndex = 207;
             this.button3.Text = "Comidas";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Visible = false;
@@ -216,7 +219,7 @@
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(452, 89);
-            this.button2.TabIndex = 186;
+            this.button2.TabIndex = 206;
             this.button2.Text = "Monumentos";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Visible = false;
@@ -229,11 +232,10 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(264, 696);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(369, 48);
-            this.label1.TabIndex = 185;
-            this.label1.Text = "Castello Sforzesco";
+            this.label1.Size = new System.Drawing.Size(186, 48);
+            this.label1.TabIndex = 205;
+            this.label1.Text = "Pirâmide";
             this.label1.Visible = false;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox2
             // 
@@ -243,10 +245,9 @@
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(452, 248);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 184;
+            this.pictureBox2.TabIndex = 204;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Visible = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -256,10 +257,9 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(452, 250);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 183;
+            this.pictureBox1.TabIndex = 203;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Visible = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
@@ -271,7 +271,7 @@
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(452, 89);
-            this.button1.TabIndex = 182;
+            this.button1.TabIndex = 202;
             this.button1.Text = "Curiosidades";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -286,7 +286,7 @@
             this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(452, 89);
-            this.button6.TabIndex = 181;
+            this.button6.TabIndex = 201;
             this.button6.Text = "Comidas";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -301,7 +301,7 @@
             this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(452, 89);
-            this.button5.TabIndex = 180;
+            this.button5.TabIndex = 200;
             this.button5.Text = "Monumentos";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -316,24 +316,11 @@
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(357, 196);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 197;
+            this.pictureBox7.TabIndex = 217;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(302, 355);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 48);
-            this.label2.TabIndex = 199;
-            this.label2.Text = "Duomo";
-            this.label2.Visible = false;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // Milão
+            // Tirana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -358,8 +345,8 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.pictureBox7);
-            this.Name = "Milão";
-            this.Text = "Milão";
+            this.Name = "Tirana";
+            this.Text = "Tirana";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -375,6 +362,7 @@
 
         #endregion
 
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -394,6 +382,5 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label2;
     }
 }
