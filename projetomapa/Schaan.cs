@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Nikšić : Form
+    public partial class Schaan : Form
     {
-        public Nikšić()
+        public Schaan()
         {
             InitializeComponent();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Montenegro Montenegro = new Montenegro();
-            Montenegro.Show();
+            Liechtenstein Liechtenstein = new Liechtenstein();
+            Liechtenstein.Show();
             this.Hide();
         }
 

@@ -24,8 +24,8 @@ namespace projetomapa
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Sérvia Sérvia = new Sérvia();
-            Sérvia.Show();
+            Moldávia Moldávia = new Moldávia();
+            Moldávia.Show();
             this.Hide();
         }
 

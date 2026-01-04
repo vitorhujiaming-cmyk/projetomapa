@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Nikšić : Form
+    public partial class Valeta : Form
     {
-        public Nikšić()
+        public Valeta()
         {
             InitializeComponent();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Montenegro Montenegro = new Montenegro();
-            Montenegro.Show();
+            Malta Malta = new Malta();
+            Malta.Show();
             this.Hide();
         }
 
@@ -42,6 +42,11 @@ namespace projetomapa
             label1.Visible = true;
             button5.Visible = false;
             button2.Visible = true;
+        }
+
+        private void Valeta_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void button3_Click(object sender, EventArgs e)

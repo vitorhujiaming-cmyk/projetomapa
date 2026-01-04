@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Montenegro : Form
+    public partial class Luxemburgo : Form
     {
-        public Montenegro()
+        public Luxemburgo()
         {
             InitializeComponent();
         }
@@ -28,16 +28,16 @@ namespace projetomapa
         {
             string cidade = comboBox1.Text;
 
-            if (cidade == "Podgorica")
+            if (cidade == "Luxemburgo")
             {
-                Podgorica Podgorica = new Podgorica();
-                Podgorica.Show();
+                cidade_Luxemburgo cidade_Luxemburgo = new cidade_Luxemburgo();
+                cidade_Luxemburgo.Show();
                 this.Hide();
             }
-            else if (cidade == "Nikšić")
+            else if (cidade == "Esch-sur-Alzette")
             {
-                Nikšić Nikšić = new Nikšić();
-                Nikšić.Show();
+                Esch_sur_Alzette Esch_sur_Alzette = new Esch_sur_Alzette();
+                Esch_sur_Alzette.Show();
                 this.Hide();
             }
         }
@@ -52,12 +52,12 @@ namespace projetomapa
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
