@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Lituânia : Form
+    public partial class Sérvia : Form
     {
-        public Lituânia()
+        public Sérvia()
         {
             InitializeComponent();
         }
@@ -28,16 +28,16 @@ namespace projetomapa
         {
             string cidade = comboBox1.Text;
 
-            if (cidade == "Vilnius")
+            if (cidade == "Belgrado")
             {
-                Vilnius Vilnius = new Vilnius();
-                Vilnius.Show();
+                Belgrado Belgrado = new Belgrado();
+                Belgrado.Show();
                 this.Hide();
             }
-            else if (cidade == "Kaunas")
+            else if (cidade == "Novi Sad")
             {
-                Kaunas Kaunas = new Kaunas();
-                Kaunas.Show();
+                Novi_Sad Novi_Sad = new Novi_Sad();
+                Novi_Sad.Show();
                 this.Hide();
             }
         }
