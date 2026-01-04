@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Suíça : Form
+    public partial class Reino_Unido : Form
     {
-        public Suíça()
+        public Reino_Unido()
         {
             InitializeComponent();
         }
@@ -28,16 +28,16 @@ namespace projetomapa
         {
             string cidade = comboBox1.Text;
 
-            if (cidade == "Berna")
+            if (cidade == "Londres")
             {
-                Berna Berna = new Berna();
-                Berna.Show();
+                Londres Londres = new Londres();
+                Londres.Show();
                 this.Hide();
             }
-            else if (cidade == "Zurique")
+            else if (cidade == "Manchester")
             {
-                Zurique Zurique = new Zurique();
-                Zurique.Show();
+                Manchester Manchester = new Manchester();
+                Manchester.Show();
                 this.Hide();
             }
         }

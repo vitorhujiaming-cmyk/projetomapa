@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Suíça : Form
+    public partial class Lituânia : Form
     {
-        public Suíça()
+        public Lituânia()
         {
             InitializeComponent();
         }
@@ -28,38 +28,18 @@ namespace projetomapa
         {
             string cidade = comboBox1.Text;
 
-            if (cidade == "Berna")
+            if (cidade == "Vilnius")
             {
-                Berna Berna = new Berna();
-                Berna.Show();
+                Vilnius Vilnius = new Vilnius();
+                Vilnius.Show();
                 this.Hide();
             }
-            else if (cidade == "Zurique")
+            else if (cidade == "Kaunas")
             {
-                Zurique Zurique = new Zurique();
-                Zurique.Show();
+                Kaunas Kaunas = new Kaunas();
+                Kaunas.Show();
                 this.Hide();
             }
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

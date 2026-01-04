@@ -10,17 +10,22 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Zurique : Form
+    public partial class Londres : Form
     {
-        public Zurique()
+        public Londres()
         {
             InitializeComponent();
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Suíça Suíça = new Suíça();
-            Suíça.Show();
+            Reino_Unido Reino_Unido = new Reino_Unido();
+            Reino_Unido.Show();
             this.Hide();
         }
 
@@ -82,71 +87,6 @@ namespace projetomapa
             label6.Visible = true;
             button1.Visible = false;
             button4.Visible = true;
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
