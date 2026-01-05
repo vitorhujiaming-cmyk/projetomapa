@@ -10,17 +10,22 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Serravalle : Form
+    public partial class Nicósia : Form
     {
-        public Serravalle()
+        public Nicósia()
         {
             InitializeComponent();
         }
 
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            San_Marino San_Marino = new San_Marino();
-            San_Marino.Show();
+            Chipre Chipre = new Chipre();
+            Chipre.Show();
             this.Hide();
         }
 

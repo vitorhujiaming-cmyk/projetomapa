@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Serravalle : Form
+    public partial class Ancara : Form
     {
-        public Serravalle()
+        public Ancara()
         {
             InitializeComponent();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            San_Marino San_Marino = new San_Marino();
-            San_Marino.Show();
+            Turquia Turquia = new Turquia();
+            Turquia.Show();
             this.Hide();
         }
 

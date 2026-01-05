@@ -1,6 +1,6 @@
 ﻿namespace projetomapa
 {
-    partial class Serravalle
+    partial class Cidade_do_Vaticano
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Serravalle));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cidade_do_Vaticano));
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -63,11 +63,11 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(196, 355);
+            this.label2.Location = new System.Drawing.Point(153, 355);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(260, 48);
+            this.label2.Size = new System.Drawing.Size(430, 48);
             this.label2.TabIndex = 638;
-            this.label2.Text = "Parque Ausa";
+            this.label2.Text = "Basílica de São Pedro";
             this.label2.Visible = false;
             // 
             // label7
@@ -77,20 +77,20 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(681, 51);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(719, 163);
+            this.label7.Size = new System.Drawing.Size(1323, 163);
             this.label7.TabIndex = 637;
-            this.label7.Text = "Serravalle";
+            this.label7.Text = "Cidade do Vaticano";
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(1348, 696);
+            this.label6.Location = new System.Drawing.Point(1400, 696);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(524, 48);
+            this.label6.Size = new System.Drawing.Size(453, 48);
             this.label6.TabIndex = 635;
-            this.label6.Text = "Papel no desporto nacional";
+            this.label6.Text = "Sede da Igreja Católica";
             this.label6.Visible = false;
             // 
             // label5
@@ -98,11 +98,11 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1370, 355);
+            this.label5.Location = new System.Drawing.Point(1428, 355);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(409, 48);
+            this.label5.Size = new System.Drawing.Size(421, 48);
             this.label5.TabIndex = 634;
-            this.label5.Text = "Moderna e comercial";
+            this.label5.Text = "Menor país do mundo";
             this.label5.Visible = false;
             // 
             // pictureBox6
@@ -134,11 +134,11 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(802, 696);
+            this.label4.Location = new System.Drawing.Point(762, 696);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(287, 48);
+            this.label4.Size = new System.Drawing.Size(478, 48);
             this.label4.TabIndex = 631;
-            this.label4.Text = "Nidi di rondine";
+            this.label4.Text = "Saltimbocca alla romana";
             this.label4.Visible = false;
             // 
             // label3
@@ -148,9 +148,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(762, 355);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(244, 48);
+            this.label3.Size = new System.Drawing.Size(264, 48);
             this.label3.TabIndex = 630;
-            this.label3.Text = "Strozzapreti";
+            this.label3.Text = "Cacio e pepe";
             this.label3.Visible = false;
             // 
             // pictureBox4
@@ -232,9 +232,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(136, 696);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(424, 48);
+            this.label1.Size = new System.Drawing.Size(290, 48);
             this.label1.TabIndex = 624;
-            this.label1.Text = "Igreja de Santo André";
+            this.label1.Text = "Capela Sistina";
             this.label1.Visible = false;
             // 
             // pictureBox2
@@ -320,7 +320,7 @@
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // Serravalle
+            // Cidade_do_Vaticano
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -345,8 +345,8 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.pictureBox7);
-            this.Name = "Serravalle";
-            this.Text = "Serravalle";
+            this.Name = "Cidade_do_Vaticano";
+            this.Text = "Cidade_do_Vaticano";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

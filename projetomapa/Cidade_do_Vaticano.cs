@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Serravalle : Form
+    public partial class Cidade_do_Vaticano : Form
     {
-        public Serravalle()
+        public Cidade_do_Vaticano()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            San_Marino San_Marino = new San_Marino();
-            San_Marino.Show();
-            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -82,6 +75,13 @@ namespace projetomapa
             label6.Visible = true;
             button1.Visible = false;
             button4.Visible = true;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Vaticano Vaticano = new Vaticano();
+            Vaticano.Show();
+            this.Hide();
         }
     }
 }
