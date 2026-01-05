@@ -260,5 +260,19 @@ namespace projetomapa
             sérvia.Show();
             this.Hide();
         }
+
+        private void pictureBox34_Click(object sender, EventArgs e)
+        {
+            Montenegro montenegro = new Montenegro();
+            montenegro.Show();
+            this.Hide();
+        }
+
+        private void pictureBox35_Click(object sender, EventArgs e)
+        {
+            Luxemburgo luxemburgo = new Luxemburgo();
+            luxemburgo.Show();
+            this.Hide();
+        }
     }
 }
