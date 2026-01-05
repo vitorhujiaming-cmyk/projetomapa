@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -194,6 +195,55 @@ namespace projetomapa
         {
             França frança = new França();
             frança.Show();
+            this.Hide();
+        }
+
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+            Alemanha Alemanha = new Alemanha();
+            Alemanha.Show();
+            this.Hide();
+        }
+
+        private void pictureBox26_Click(object sender, EventArgs e)
+        {
+            Polónia polónia = new Polónia();
+            polónia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+            Chéquia chéquia = new Chéquia();
+            chéquia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox28_Click(object sender, EventArgs e)
+        {
+            Eslováquia eslováquia = new Eslováquia();
+            eslováquia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox29_Click(object sender, EventArgs e)
+        {
+            Suíça suíça = new Suíça();
+            suíça.Show();
+            this.Hide();
+        }
+
+        private void pictureBox30_Click(object sender, EventArgs e)
+        {
+            Reino_Unido reino_Unido = new Reino_Unido();
+            reino_Unido.Show();
+            this.Hide();
+        }
+
+        private void pictureBox31_Click(object sender, EventArgs e)
+        {
+            Ucrânia ucrânia = new Ucrânia();
+            ucrânia.Show();
             this.Hide();
         }
     }
