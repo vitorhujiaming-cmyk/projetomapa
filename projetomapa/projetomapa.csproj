@@ -76,6 +76,18 @@
     <Compile Include="Amesterdão.Designer.cs">
       <DependentUpon>Amesterdão.cs</DependentUpon>
     </Compile>
+    <Compile Include="Andorra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Andorra.Designer.cs">
+      <DependentUpon>Andorra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Andorra_la_Vella.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Andorra_la_Vella.Designer.cs">
+      <DependentUpon>Andorra_la_Vella.cs</DependentUpon>
+    </Compile>
     <Compile Include="Antuérpia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +208,12 @@
     <Compile Include="cidade_Luxemburgo.Designer.cs">
       <DependentUpon>cidade_Luxemburgo.cs</DependentUpon>
     </Compile>
+    <Compile Include="cidade_Mónaco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cidade_Mónaco.Designer.cs">
+      <DependentUpon>cidade_Mónaco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cluj-Napoca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -255,6 +273,12 @@
     </Compile>
     <Compile Include="Durrës.Designer.cs">
       <DependentUpon>Durrës.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Escaldes_Engordany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Escaldes_Engordany.Designer.cs">
+      <DependentUpon>Escaldes_Engordany.cs</DependentUpon>
     </Compile>
     <Compile Include="Esch-sur-Alzette.cs">
       <SubType>Form</SubType>
@@ -501,6 +525,12 @@
     </Compile>
     <Compile Include="Munique.Designer.cs">
       <DependentUpon>Munique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mónaco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mónaco.Designer.cs">
+      <DependentUpon>Mónaco.cs</DependentUpon>
     </Compile>
     <Compile Include="Nikšić.cs">
       <SubType>Form</SubType>
@@ -765,6 +795,12 @@
     <EmbeddedResource Include="Amesterdão.resx">
       <DependentUpon>Amesterdão.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Andorra.resx">
+      <DependentUpon>Andorra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Andorra_la_Vella.resx">
+      <DependentUpon>Andorra_la_Vella.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Antuérpia.resx">
       <DependentUpon>Antuérpia.cs</DependentUpon>
     </EmbeddedResource>
@@ -825,6 +861,9 @@
     <EmbeddedResource Include="cidade_Luxemburgo.resx">
       <DependentUpon>cidade_Luxemburgo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="cidade_Mónaco.resx">
+      <DependentUpon>cidade_Mónaco.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cluj-Napoca.resx">
       <DependentUpon>Cluj-Napoca.cs</DependentUpon>
     </EmbeddedResource>
@@ -854,6 +893,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Durrës.resx">
       <DependentUpon>Durrës.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escaldes_Engordany.resx">
+      <DependentUpon>Escaldes_Engordany.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Esch-sur-Alzette.resx">
       <DependentUpon>Esch-sur-Alzette.cs</DependentUpon>
@@ -977,6 +1019,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Munique.resx">
       <DependentUpon>Munique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mónaco.resx">
+      <DependentUpon>Mónaco.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikšić.resx">
       <DependentUpon>Nikšić.cs</DependentUpon>
