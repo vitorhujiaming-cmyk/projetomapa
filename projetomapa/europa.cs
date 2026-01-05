@@ -253,5 +253,12 @@ namespace projetomapa
             lituânia.Show();
             this.Hide();
         }
+
+        private void pictureBox33_Click(object sender, EventArgs e)
+        {
+            Sérvia sérvia = new Sérvia();
+            sérvia.Show();
+            this.Hide();
+        }
     }
 }
