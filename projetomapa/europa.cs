@@ -246,5 +246,12 @@ namespace projetomapa
             ucrânia.Show();
             this.Hide();
         }
+
+        private void pictureBox32_Click(object sender, EventArgs e)
+        {
+            Lituânia lituânia = new Lituânia();
+            lituânia.Show();
+            this.Hide();
+        }
     }
 }
