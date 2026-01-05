@@ -24,8 +24,8 @@ namespace projetomapa
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Mónaco Mónaco = new Mónaco();
-            Mónaco.Show();
+            San_Marino San_Marino = new San_Marino();
+            San_Marino.Show();
             this.Hide();
         }
 

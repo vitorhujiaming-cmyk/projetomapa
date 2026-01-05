@@ -214,6 +214,12 @@
     <Compile Include="cidade_Mónaco.Designer.cs">
       <DependentUpon>cidade_Mónaco.cs</DependentUpon>
     </Compile>
+    <Compile Include="cidade_San_Marino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cidade_San_Marino.Designer.cs">
+      <DependentUpon>cidade_San_Marino.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cluj-Napoca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -648,6 +654,12 @@
     <Compile Include="Salónica.Designer.cs">
       <DependentUpon>Salónica.cs</DependentUpon>
     </Compile>
+    <Compile Include="San_Marino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="San_Marino.Designer.cs">
+      <DependentUpon>San_Marino.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sarajevo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -863,6 +875,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="cidade_Mónaco.resx">
       <DependentUpon>cidade_Mónaco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cidade_San_Marino.resx">
+      <DependentUpon>cidade_San_Marino.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cluj-Napoca.resx">
       <DependentUpon>Cluj-Napoca.cs</DependentUpon>
@@ -1088,6 +1103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Salónica.resx">
       <DependentUpon>Salónica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="San_Marino.resx">
+      <DependentUpon>San_Marino.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sarajevo.resx">
       <DependentUpon>Sarajevo.cs</DependentUpon>

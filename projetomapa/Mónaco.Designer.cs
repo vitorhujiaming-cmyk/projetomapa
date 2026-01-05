@@ -54,6 +54,7 @@
             this.comboBox1.Size = new System.Drawing.Size(308, 54);
             this.comboBox1.TabIndex = 134;
             this.comboBox1.Tag = "";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // pictureBox3
             // 
@@ -79,6 +80,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 132;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label1
             // 
@@ -91,6 +93,7 @@
             this.label1.Size = new System.Drawing.Size(391, 108);
             this.label1.TabIndex = 131;
             this.label1.Text = "Mónaco";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox2
             // 
@@ -118,6 +121,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 135;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Mónaco
             // 

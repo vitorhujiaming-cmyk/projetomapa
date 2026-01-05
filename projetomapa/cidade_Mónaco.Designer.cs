@@ -86,7 +86,7 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(1462, 696);
+            this.label6.Location = new System.Drawing.Point(1413, 696);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(321, 48);
             this.label6.TabIndex = 595;
