@@ -672,6 +672,12 @@
     <Compile Include="Schaan.Designer.cs">
       <DependentUpon>Schaan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Serravalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serravalle.Designer.cs">
+      <DependentUpon>Serravalle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Skopje.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1112,6 +1118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Schaan.resx">
       <DependentUpon>Schaan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serravalle.resx">
+      <DependentUpon>Serravalle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Skopje.resx">
       <DependentUpon>Skopje.cs</DependentUpon>
