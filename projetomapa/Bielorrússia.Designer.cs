@@ -135,6 +135,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Bielorrússia";
             this.Text = "Bielorrússia";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

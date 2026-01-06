@@ -83,5 +83,10 @@ namespace projetomapa
             button1.Visible = false;
             button4.Visible = true;
         }
+
+        private void Ancara_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
