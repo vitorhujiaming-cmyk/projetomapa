@@ -83,5 +83,10 @@ namespace projetomapa
             Vaticano.Show();
             this.Hide();
         }
+
+        private void Cidade_do_Vaticano_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

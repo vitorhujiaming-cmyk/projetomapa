@@ -274,5 +274,61 @@ namespace projetomapa
             luxemburgo.Show();
             this.Hide();
         }
+
+        private void pictureBox36_Click(object sender, EventArgs e)
+        {
+            Liechtenstein liechtenstein = new Liechtenstein();
+            liechtenstein.Show();
+            this.Hide();
+        }
+
+        private void pictureBox37_Click(object sender, EventArgs e)
+        {
+            Malta malta = new Malta();
+            malta.Show();
+            this.Hide();
+        }
+
+        private void pictureBox38_Click(object sender, EventArgs e)
+        {
+            Moldávia moldávia = new Moldávia();
+            moldávia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox39_Click(object sender, EventArgs e)
+        {
+            Andorra andorra = new Andorra();
+            andorra.Show();
+            this.Show();
+        }
+
+        private void pictureBox40_Click(object sender, EventArgs e)
+        {
+            Mónaco mónaco = new Mónaco();
+            mónaco.Show();
+            this.Hide();
+        }
+
+        private void pictureBox41_Click(object sender, EventArgs e)
+        {
+            San_Marino san_Marino = new San_Marino();
+            san_Marino.Show();
+            this.Hide();
+        }
+
+        private void pictureBox42_Click(object sender, EventArgs e)
+        {
+            Vaticano vaticano = new Vaticano();
+            vaticano.Show();
+            this.Hide();
+        }
+
+        private void pictureBox43_Click(object sender, EventArgs e)
+        {
+            Chipre chipre = new Chipre();
+            chipre.Show();
+            this.Hide();
+        }
     }
 }
