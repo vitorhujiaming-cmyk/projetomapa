@@ -330,5 +330,26 @@ namespace projetomapa
             chipre.Show();
             this.Hide();
         }
+
+        private void pictureBox44_Click(object sender, EventArgs e)
+        {
+            Kosovo kosovo = new Kosovo();
+            kosovo.Show();
+            this.Hide();
+        }
+
+        private void pictureBox45_Click(object sender, EventArgs e)
+        {
+            Bielorrússia bielorrússia = new Bielorrússia();
+            bielorrússia.Show();
+            this.Hide();
+        }
+
+        private void pictureBox46_Click(object sender, EventArgs e)
+        {
+            Turquia turquia = new Turquia();
+            turquia.Show();
+            this.Hide();
+        }
     }
 }

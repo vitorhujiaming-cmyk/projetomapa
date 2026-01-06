@@ -136,6 +136,12 @@
     <Compile Include="Berna.Designer.cs">
       <DependentUpon>Berna.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bielorrússia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bielorrússia.Designer.cs">
+      <DependentUpon>Bielorrússia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bitola.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -358,6 +364,12 @@
     <Compile Include="França.Designer.cs">
       <DependentUpon>França.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gomel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gomel.Designer.cs">
+      <DependentUpon>Gomel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gotemburgo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -543,6 +555,12 @@
     </Compile>
     <Compile Include="Milão.Designer.cs">
       <DependentUpon>Milão.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minsk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minsk.Designer.cs">
+      <DependentUpon>Minsk.cs</DependentUpon>
     </Compile>
     <Compile Include="Moldávia.cs">
       <SubType>Form</SubType>
@@ -909,6 +927,9 @@
     <EmbeddedResource Include="Berna.resx">
       <DependentUpon>Berna.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bielorrússia.resx">
+      <DependentUpon>Bielorrússia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bitola.resx">
       <DependentUpon>Bitola.cs</DependentUpon>
     </EmbeddedResource>
@@ -1020,6 +1041,9 @@
     <EmbeddedResource Include="França.resx">
       <DependentUpon>França.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gomel.resx">
+      <DependentUpon>Gomel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gotemburgo.resx">
       <DependentUpon>Gotemburgo.cs</DependentUpon>
     </EmbeddedResource>
@@ -1112,6 +1136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Milão.resx">
       <DependentUpon>Milão.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minsk.resx">
+      <DependentUpon>Minsk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Moldávia.resx">
       <DependentUpon>Moldávia.cs</DependentUpon>

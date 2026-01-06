@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projetomapa
 {
-    public partial class Andorra : Form
+    public partial class Bielorrússia : Form
     {
-        public Andorra()
+        public Bielorrússia()
         {
             InitializeComponent();
         }
@@ -28,23 +28,18 @@ namespace projetomapa
         {
             string cidade = comboBox1.Text;
 
-            if (cidade == "Andorra la Vella")
+            if (cidade == "Minsk")
             {
-                Andorra_la_Vella Andorra_la_Vella = new Andorra_la_Vella();
-                Andorra_la_Vella.Show();
+                Minsk minsk = new Minsk();
+                minsk.Show();
                 this.Hide();
             }
-            else if (cidade == "Escaldes-Engordany")
+            else if (cidade == "Gomel")
             {
-                Escaldes_Engordany Escaldes_Engordany = new Escaldes_Engordany();
-                Escaldes_Engordany.Show();
+                Gomel gomel = new Gomel();
+                gomel.Show();
                 this.Hide();
             }
-        }
-
-        private void Andorra_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
