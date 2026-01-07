@@ -31,7 +31,6 @@ namespace projetomapa
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu));
-            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.voos = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -39,17 +38,6 @@ namespace projetomapa
             ((System.ComponentModel.ISupportInitialize)(this.voos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(41, 31);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(369, 119);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "João";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
             // 
@@ -97,7 +85,6 @@ namespace projetomapa
             this.ClientSize = new System.Drawing.Size(1444, 941);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.voos);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "menu";
             this.Text = "menu";
@@ -116,7 +103,6 @@ namespace projetomapa
         }
 
         #endregion
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox voos;
         private System.Windows.Forms.PictureBox pictureBox2;

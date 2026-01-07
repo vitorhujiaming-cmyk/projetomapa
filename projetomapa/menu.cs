@@ -22,12 +22,6 @@ namespace projetomapa
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Turquia Turquia = new Turquia();
-            Turquia.Show();
-            this.Hide();
-        }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
