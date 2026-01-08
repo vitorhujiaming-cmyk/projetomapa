@@ -55,6 +55,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(400, 39);
             this.comboBox1.TabIndex = 98;
+            this.comboBox1.Text = "---------------Selecione---------------";
             // 
             // pictureBox3
             // 
