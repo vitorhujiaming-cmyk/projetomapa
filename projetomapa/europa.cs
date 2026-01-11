@@ -18,6 +18,8 @@ namespace projetomapa
             InitializeComponent();
         }
 
+
+        // Como o objetivo deste forms é clicar em cada "pin" e mostrar o respetivo país, optámos por comentar apenas no primeiro (Portugal), pois os outros seguirão o mesmo raciocínio.
         private void europa_Load(object sender, EventArgs e)
         {
 
@@ -25,9 +27,9 @@ namespace projetomapa
 
         private void portugal_Click(object sender, EventArgs e)
         {
-            Portugal portugal = new Portugal();
-            portugal.Show();
-            this.Hide();
+            Portugal portugal = new Portugal();      // Criar um novo forms "Portugal"
+            portugal.Show();    // Mostrar o forms "Portugal" ao utilizador
+            this.Hide();     // Ocultar o forms atual
         }
 
         private void espanha_Click(object sender, EventArgs e)

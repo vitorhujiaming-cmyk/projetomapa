@@ -53,10 +53,10 @@ namespace projetomapa
             {
                 for (int j = i + 1; j < paises.Length; j++)
                 { 
-                    // Calcula o preço entre dois países
+                    // Calcular o preço entre dois países
                     int preco = CalcularPreco(paises[i], paises[j]);
 
-                    // Adiciona o preço à tabela de preços (para ida e volta)
+                    // Adicionar o preço à tabela de preços (para ida e volta)
                     AdicionarPreco(paises[i], paises[j], preco);
                 }
             }
@@ -70,7 +70,7 @@ namespace projetomapa
             int fator1 = pais1.Length * 7;
             int fator2 = pais2.Length * 9;
 
-            // Retorna o preço total somando base + fatores
+            // Retornar o preço total somando base + fatores
             return basePreco + fator1 + fator2;
         }
 
@@ -99,19 +99,19 @@ namespace projetomapa
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            // Obtém o número de adultos e crianças a partir dos NumericUpDowns
+            // Obter o número de adultos e crianças a partir dos NumericUpDowns
             int numAdultos = (int)numericUpDown1.Value;
             int numCriancas = (int)numericUpDown2.Value;
             int numPassageiros = numAdultos + numCriancas;
 
-            // Verifica se pelo menos um passageiro foi selecionado
+            // Verificar se pelo menos um passageiro foi selecionado
             if (numAdultos + numCriancas == 0)
             {
                 MessageBox.Show("Selecione pelo menos um passageiro.");
-                return; // Interrompe a execução se não houver passageiros
+                return; // Interromper a execução se não houver passageiros
             }
 
-            // Verifica se a classe de voo foi selecionada no ComboBox
+            // Verificar se a classe de voo foi selecionada no ComboBox
             if (comboBox3.SelectedItem == null)
             {
                 MessageBox.Show("Selecione a classe de voo.");
@@ -121,28 +121,28 @@ namespace projetomapa
             if (!checkBox1.Checked && !checkBox2.Checked)
             {
                 MessageBox.Show("Selecione pelo menos uma opção: Ida e volta ou Só ida.");
-                return; // impede que o cálculo continue
+                return; // impedir que o cálculo continue
             }
 
-            // Verifica se os dois países (partida e chegada) foram selecionados
+            // Verificar se os dois países (partida e chegada) foram selecionados
             if (comboBox1.SelectedItem == null || comboBox2.SelectedItem == null)
             {
                 MessageBox.Show("Selecione os dois países.");
                 return;
             }
 
-            // Converte os itens selecionados em strings
+            // Converter os itens selecionados em strings
             string partida = comboBox1.SelectedItem.ToString();
             string chegada = comboBox2.SelectedItem.ToString();
 
-            // Evita que o voo tenha mesma origem e destino
+            // Evitar que o voo tenha mesma origem e destino
             if (partida == chegada)
             {
                 MessageBox.Show("O ponto de partida não pode ser igual ao de chegada.");
                 return;
             }
 
-            // Verifica se a data do voo foi selecionada
+            // Verificar se a data do voo foi selecionada
             if (!dateTimePicker1.Checked)
             {
                 MessageBox.Show("Selecione uma data para o voo.");
@@ -155,26 +155,26 @@ namespace projetomapa
                 return;
             }
 
-            // Obtém a data selecionada
+            // Obter a data selecionada
             DateTime dataVoo = dateTimePicker1.Value;
 
-            // Obtém o preço base do voo usando uma tabela de preços
+            // Obter o preço base do voo usando uma tabela de preços
             int preco = tabelaPrecos[partida + "-" + chegada];
 
-            // Calcula preço total dos adultos
+            // Calcular preço total dos adultos
             double precoAdultos = numAdultos * preco;
 
-            // Calcula preço das crianças (45% do preço do adulto)
+            // Calcular preço das crianças (45% do preço do adulto)
             double precoCriancas = numCriancas * preco * 0.45;
 
-            // Soma o total
+            // Somar o total
             double precoTotal = precoAdultos + precoCriancas;
 
             // Multiplicador baseado na classe de voo
             string classe = comboBox3.SelectedItem.ToString();
             double multiplicadorClasse;
 
-            // Define multiplicador conforme a classe
+            // Definer multiplicador conforme a classe
             switch (comboBox3.SelectedItem.ToString())
             {
                 case "Económica":
@@ -194,13 +194,13 @@ namespace projetomapa
                     break;
             }
 
-            // Aplica multiplicador da classe ao preço total
+            // Aplicar multiplicador da classe ao preço total
             precoTotal *= multiplicadorClasse;
 
             // Fator de ajuste baseado na data (alta/baixa temporada)
             double fatorData = 1.0;
 
-            // Define períodos de alta e média temporada
+            // Definir períodos de alta e média temporada
             DateTime ano2026 = new DateTime(2026, 1, 1);
             DateTime inicioAlta1 = new DateTime(2026, 1, 10);
             DateTime fimAlta1 = new DateTime(2026, 2, 10);
@@ -217,7 +217,7 @@ namespace projetomapa
             DateTime inicioAlta3 = new DateTime(2026, 12, 1);
             DateTime fimAlta3 = new DateTime(2027, 1, 10);
 
-            // Ajusta fator de preço conforme a temporada
+            // Ajustar fator de preço conforme a temporada
             if (dataVoo >= inicioAlta1 && dataVoo <= fimAlta1)
                 fatorData = 2.0; // alta temporada (200%)
             else if (dataVoo >= inicioMedia1 && dataVoo <= fimMedia1)
@@ -229,10 +229,10 @@ namespace projetomapa
             else if (dataVoo >= inicioAlta3 && dataVoo <= fimAlta3)
                 fatorData = 2.0; // alta temporada 3 (200%)
 
-            // Aplica fator de data ao preço total
+            // Aplicar fator de data ao preço total
             precoTotal *= fatorData;
 
-            // Verifica se é Ida e Volta
+            // Verificar se é Ida e Volta
             if (checkBox1.Checked)
             {
                 precoTotal *= 1.85; // 185%
@@ -251,7 +251,7 @@ namespace projetomapa
 
             List<string> lugares = new List<string>(); // lista para armazenar os lugares
 
-            // Gera um lugar para cada passageiro
+            // Gerar um lugar para cada passageiro
             for (int i = 0; i < numPassageiros; i++)
             {
                 int numero = random.Next(1, 51);         // número da fila 1 a 50
@@ -259,7 +259,7 @@ namespace projetomapa
 
                 string lugar = numero.ToString() + letra;
 
-                // Garante que não haja lugares duplicados
+                // Garantir que não haja lugares duplicados
                 while (lugares.Contains(lugar))
                 {
                     numero = random.Next(1, 51);
@@ -270,10 +270,10 @@ namespace projetomapa
                 lugares.Add(lugar);
             }
 
-            // Converte a lista de lugares em uma string separada por espaços
+            // Converter a lista de lugares em uma string separada por espaços
             string lugaresStr = string.Join(" | ", lugares);
 
-            // Exibe os lugares no Label1
+            // Exibir os lugares no Label1
             label1.Text = lugaresStr;
 
             // -------------------------------
@@ -284,7 +284,7 @@ namespace projetomapa
             char letra2 = (char)random.Next('A', 'Z' + 1);
             int numero2 = random.Next(1000, 10000);
 
-            // Exibe no Label2
+            // Exibir no Label2
             label2.Text = letra1.ToString() + letra2.ToString() + " " + numero2;
 
             // -------------------------------
@@ -293,7 +293,7 @@ namespace projetomapa
 
             label3.Text = Math.Round(precoTotal, 1) + " €";
 
-            // Desativa o botão/ícone após gerar os dados
+            // Desativar o botão/ícone após gerar os dados
             pictureBox4.Enabled = false;
         }
 
@@ -322,7 +322,7 @@ namespace projetomapa
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             pictureBox4.Enabled = true;
-            // Garante que a data de volta não seja antes da data de ida
+            // Garantir que a data de volta não seja antes da data de ida
             dateTimePicker2.MinDate = dateTimePicker1.Value;
         }
 
@@ -335,13 +335,13 @@ namespace projetomapa
         {
             if (checkBox1.Checked)
             {
-                checkBox2.Checked = false;  // desmarca a outra
-                dateTimePicker2.Visible = true; // mostra segunda data
+                checkBox2.Checked = false;  // desmarcar a outra
+                dateTimePicker2.Visible = true; // mostrar segunda data
                 label9.Visible=true;
             }
             else
             {
-                dateTimePicker2.Visible = false; // esconde se não estiver marcada
+                dateTimePicker2.Visible = false; // esconder se não estiver marcada
             }
             pictureBox4.Enabled = true;
         }
@@ -350,8 +350,8 @@ namespace projetomapa
         {
             if (checkBox2.Checked)
             {
-                checkBox1.Checked = false; // desmarca a outra
-                dateTimePicker2.Visible = false;  // esconde segunda data
+                checkBox1.Checked = false; // desmarcar a outra
+                dateTimePicker2.Visible = false;  // esconder segunda data
                 label9.Visible = false;
             }
             pictureBox4.Enabled = true;
